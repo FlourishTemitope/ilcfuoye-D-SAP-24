@@ -1,0 +1,144 @@
+:root {
+    --header-txt-color: #ccdefe;
+}
+
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* overflow: hidden; */
+  
+}
+
+
+header{
+    /* background-image: url('exam2.jpg');
+    background-repeat: no-repeat;
+    border: 0;
+    color: white;
+    width: 100vw; */
+    width: 100%;
+    height: 100vh;
+    border: 0px;
+    color: whitesmoke;
+    margin-left: 0;
+    margin-right: 0;
+    background-image: url('exam2.jpg');
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: left top;
+    background-color: brown;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:1em;
+}
+
+/* For width 400px and smaller: */
+/* @media only screen and (max-width: 400px) {
+    body {
+        background-image: url('img_flowers.jpg');
+    }
+} */
+
+header p span{
+    font-size: 1.5em;
+    animation-name: up;
+        animation-duration: 5s;
+        animation-delay: 0s;
+        animation-fill-mode: both;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: reverse;
+
+}
+
+@keyframes up {
+    0% {
+        color: yellowgreen;
+    }
+
+    25% {
+        color: pink;
+        transform: rotate3d(45deg);
+    }
+
+    50% {
+        color: green;
+    }
+
+    75% {
+        color: yellowgreen;
+    }
+
+    100% {
+        color: greenyellow;
+    }
+}
+
+/* section {
+    border: 5px solid limegreen;
+    margin-top: 25px;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    /* justify-content: center;
+    /* width: 50% 50%; */
+/* }   */
+
+ #container{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        min-height: 100vh;
+} 
+
+#about-Dsap,#who-can-join, #requirements, #how-to-register, #about-the-club {
+    background-color: green;
+        margin: 10px;
+        padding: 20px;
+        text-align: justify;
+        font-size: 1.5em;
+        /* text-align: center; */
+        border-radius: 15px ;
+        color: whitesmoke;
+        width: 300px;
+        box-sizing: border-box;
+        
+} 
+
+h2{
+    margin: 5px;
+    padding: 0;
+}
+
+footer{
+    margin: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border: 2px dashed yellowgreen;
+    padding: 5px;
+
+}
+
+hr{
+    color: black;
+}
+
+
+@media screen and (max-width: 768px) {
+    .content-box {
+        width: calc(100%-20px);
+    }
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+    padding: 5px;
+}
