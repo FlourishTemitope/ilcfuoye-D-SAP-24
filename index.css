@@ -80,16 +80,6 @@ header p span{
     }
 }
 
-/* section {
-    border: 5px solid limegreen;
-    margin-top: 25px;
-    text-align: center;
-    display:flex;
-    align-items: center;
-    /* justify-content: center;
-    /* width: 50% 50%; */
-/* }   */
-
  #container{
     display: flex;
         flex-direction: column;
@@ -103,7 +93,7 @@ header p span{
     background-color: green;
         margin: 10px;
         padding: 20px;
-        font-size: 1em;
+        font-size: 0.9rem;
         border-radius: 15px ;
         color: whitesmoke;
         width: 300px;
